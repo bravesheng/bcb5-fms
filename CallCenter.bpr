@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="Output\CallCenter.exe"/>
+    <OBJFILES value="Output\obj\CallCenter.obj Output\obj\MainForm.obj 
+      Output\obj\GetTrackThread.obj Output\obj\common.obj 
+      Output\obj\LogoForm.obj Output\obj\SubForm1.obj Output\obj\RemoteCmdDlg.obj 
+      Output\obj\RemarkPlace.obj Output\obj\AddRemarksDlg.obj 
+      Output\obj\ReportForm.obj Output\obj\SmartQryForm.obj 
+      Output\obj\HisTracer.obj Output\obj\TraceForm.obj Output\obj\smscform.obj 
+      Output\obj\SelectPath.obj Output\obj\CustRoute.obj 
+      Output\obj\DataMudule.obj Output\obj\RouteEditorForm.obj 
+      Output\obj\MaintainThread.obj Output\obj\SettingForm.obj 
+      Output\obj\EstablishForm.obj Output\obj\ViewForm.obj 
+      Output\obj\FreeAllForm.obj Output\obj\ChooseCarForm.obj 
+      Output\obj\LoginForm.obj Output\obj\EditPasswordForm.obj 
+      Output\obj\StatManager.obj Output\obj\PrintForm.obj 
+      Output\obj\TripForm.obj Output\obj\CarinfoForm.obj 
+      Output\obj\UserManagerForm.obj Output\obj\SetupPwdForm.obj 
+      Output\obj\AddUserForm.obj"/>
+    <RESFILES value="CallCenter.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainForm.dfm LogoForm.dfm SubForm1.dfm RemoteCmdDlg.dfm 
+      AddRemarksDlg.dfm ReportForm.dfm SmartQryForm.dfm HisTracer.dfm 
+      TraceForm.dfm smscform.dfm SelectPath.dfm CustRoute.dfm DataMudule.dfm 
+      RouteEditorForm.dfm SettingForm.dfm EstablishForm.dfm ViewForm.dfm 
+      FreeAllForm.dfm ChooseCarForm.dfm LoginForm.dfm EditPasswordForm.dfm 
+      StatManager.dfm PrintForm.dfm TripForm.dfm CarinfoForm.dfm 
+      UserManagerForm.dfm SetupPwdForm.dfm AddUserForm.dfm"/>
+    <LIBFILES value="a.lib &quot;C:\Program Files\Borland\CBuilder5\Lib\wininet.lib&quot;"/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="Vcl50.lib Vclx50.lib Vcldb50.lib VCLBDE50.lib Qrpt50.lib Tee50.lib 
+      NMFast50.lib Vclmid50.lib bcbsmp50.lib"/>
+    <PACKAGES value="Vcl50.bpi Vclx50.bpi bcbsmp50.bpi Qrpt50.bpi Vcldb50.bpi Vclbde50.bpi 
+      ibsmp50.bpi vcldbx50.bpi TeeUI50.bpi TeeDB50.bpi Tee50.bpi TeeQR50.bpi 
+      VCLIB50.bpi bcbie50.bpi vclie50.bpi Inetdb50.bpi Inet50.bpi NMFast50.bpi 
+      dclocx50.bpi bcb2kaxserver50.bpi Vclmid50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="CallCenter.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files\Borland\CBuilder5\Projects\.&quot; -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl50.csm -Hc -Q -Vx -Ve -f- -X- -a8 -b -k- -vi -c -tW 
+      -tWM"/>
+    <PFLAGS value="-N2Output\obj -N0Output\obj -$Y- -$L- -$D- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-IOutput\obj -da.dll -D&quot;&quot; -aa -Tpe -x -Gn"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=4
+Release=2
+Build=194
+Debug=1
+PreRelease=1
+Special=0
+Private=0
+DLL=0
+Locale=1028
+CodePage=950
+
+[Version Info Keys]
+CompanyName=GPL License
+FileDescription=Call Center Realtime System
+FileVersion=1.4.2.194
+InternalName=DCH FMS
+LegalCopyright=GPL License
+LegalTrademarks=
+OriginalFilename=
+ProductName=DCH Call Center
+ProductVersion=FMS-HK-DCH-0.5
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=18
+Item0=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item1=C:\Program Files\Borland\CBuilder5\Projects\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item2=D:\Program Files\Borland\CBuilder5\Projects\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item3=D:\Program Files\Borland\CBuilder5\Projects;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item4=C:\Program Files\Borland\CBuilder5\Projects;..\..\香港 DCH Control Centre 案\DCH Control Centre;$(BCB)\include;$(BCB)\include\vcl
+Item5=$(BCB)\include;$(BCB)\include\vcl
+Item6=D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item7=..\DisplayByDll Stovact 版;D:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item8=..\DisplayByDll Stovact 版;E:\PC-CILLIN NT\;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item9=E:\PC-CILLIN NT\;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item10=E:\PC-CILLIN NT\;..\DisplayByDll Stovact 版;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item11=E:\PC-CILLIN NT;..\DisplayByDll Stovact 版;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item12=..\DisplayByDll Stovact 版;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item13=..\DisplayByDll BCB5;..\DisplayByDll Stovact 版;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item14=..\DisplayByDll BCB5;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item15=E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item16=E:\Program Files\Borland\CBuilder5\Projects;E:\;$(BCB)\include;$(BCB)\include\vcl
+Item17=..\DisplayByDll BCB5;E:\;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=18
+Item0=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item1=C:\Program Files\Borland\CBuilder5\Projects\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item2=D:\Program Files\Borland\CBuilder5\Projects\;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item3=D:\Program Files\Borland\CBuilder5\Projects;C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\Program Files\Borland\CBuilder5\Projects;..\..\香港 DCH Control Centre 案\DCH Control Centre;$(BCB)\lib\obj;$(BCB)\lib
+Item5=$(BCB)\lib\obj;$(BCB)\lib
+Item6=d:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item7=..\DisplayByDll Stovact 版;d:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib
+Item8=..\DisplayByDll Stovact 版;E:\PC-CILLIN NT\;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item9=E:\PC-CILLIN NT\;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item10=E:\PC-CILLIN NT\;..\DisplayByDll Stovact 版;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item11=E:\PC-CILLIN NT;..\DisplayByDll Stovact 版;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item12=..\DisplayByDll Stovact 版;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item13=..\DisplayByDll BCB5;..\DisplayByDll Stovact 版;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item14=..\DisplayByDll BCB5;D:\;E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item15=E:\Program Files\Borland\CBuilder5\Projects\;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item16=E:\Program Files\Borland\CBuilder5\Projects;E:\;$(BCB)\lib\obj;$(BCB)\lib
+Item17=..\DisplayByDll BCB5;E:\;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=2
+Item0=Output\obj
+Item1=Output
+
+[HistoryLists\hlFinalOutputDir]
+Count=12
+Item0=Output\
+Item1=Output
+Item2=E:\CallCenter\程式\
+Item3=g:\CallCenter\程式\
+Item4=D:\CallCenter\程式\
+Item5=C:\Program Files\FMS
+Item6=C:\Program Files\FMS
+Item7=E:\CallCenter\程式
+Item8=C:\CallCenter\程式\
+Item9=C:\CallCenter\程式
+Item10=C:\CallCenter\
+Item11=C:\CallCenter
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,1 @@
+implib a.lib a.dll
